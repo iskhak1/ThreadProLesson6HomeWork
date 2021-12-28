@@ -25,7 +25,7 @@ public class Car   {
         this.name = "Участник #" + CARS_COUNT;
 
     }
-        CountDownLatch  cdl = new CountDownLatch(4);
+
 
 }
 
