@@ -2,11 +2,12 @@ package ru.geekbrains.M3;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Vector;
 
 public class Race {
-    private ArrayList<Stage> stages;
-    public ArrayList<Stage> getStages() { return stages; }
+    private Vector<Stage> stages;
+    public Vector<Stage> getStages() { return stages; }
     public Race(Stage... stages) {
-        this.stages = new ArrayList<>(Arrays.asList(stages));
+        this.stages = new Vector<Stage>(Arrays.asList(stages));
     }
 }
